@@ -36,7 +36,7 @@ import de.mklinger.commons.logging.Slf4jPrintStream;
  *     &lt;Listener className="de.mklinger.commons.logging.catalina.StdErrOutInitListener"/&gt;
  *     ...
  * &lt;/Server&gt;
- * </pre&gt;
+ * </pre>
  *
  * Additional settings can be given:
  * <pre>
