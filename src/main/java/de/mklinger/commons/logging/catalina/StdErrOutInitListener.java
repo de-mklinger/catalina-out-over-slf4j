@@ -31,16 +31,16 @@ import de.mklinger.commons.logging.Slf4jPrintStream;
  * Catalina lifecycle listener for redirecting stdout and stderr to SLF4j.
  * To be configured in server.xml as follows:
  * <pre>
- * &lt;Server>
+ * &lt;Server&gt;
  *     ...
- *     &lt;Listener className="de.mklinger.commons.logging.catalina.StdErrOutInitListener"/>
+ *     &lt;Listener className="de.mklinger.commons.logging.catalina.StdErrOutInitListener"/&gt;
  *     ...
- * &lt;/Server>
- * </pre>
+ * &lt;/Server&gt;
+ * </pre&gt;
  *
  * Additional settings can be given:
  * <pre>
- * &lt;Server>
+ * &lt;Server&gt;
  *     ...
  *     &lt;Listener
  *         className="de.mklinger.commons.logging.catalina.StdErrOutInitListener"
@@ -48,9 +48,9 @@ import de.mklinger.commons.logging.Slf4jPrintStream;
  *         stdOutLevel="INFO"
  *         stdErrName="myerrorout"
  *         stdOutName="myout"
- *     />
+ *     /&gt;
  *     ...
- * &lt;/Server>
+ * &lt;/Server&gt;
  * </pre>
  *
  * @author Marc Klinger - mklinger[at]mklinger[dot]de
